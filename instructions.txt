@@ -1,0 +1,3 @@
+docker-compose up
+docker exec -it pg_container1 bash
+psql --host=pg_container1 --dbname=test_db --username=root
